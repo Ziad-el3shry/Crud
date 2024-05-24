@@ -1,0 +1,86 @@
+body {
+    font-family: system-ui;
+}
+
+.head {
+    text-align: center;
+    color     : rgb(249, 74, 31);
+}
+
+input {
+    width           : 100%;
+    border          : 0px;
+    outline         : 0px;
+    border-radius   : 5px;
+    background-color: #d5d3d3;
+    padding         : 5px;
+    margin          : 5px;
+    color           : rgb(255, 51, 0);
+}
+
+input:focus {
+    transform       : scale(1.050);
+    background-color: #a5a5a5;
+}
+
+.div3 {
+    display        : flex;
+    justify-content: space-between;
+}
+
+small {
+    background-color: #f53100;
+    color           : white;
+    padding         : 5px;
+    border-radius   : 5px;
+    height          : 40px;
+}
+
+button {
+    color           : white;
+    background-color: rgb(249, 74, 31);
+    border          : 0px;
+    transition      : 0.5s;
+}
+
+.create {
+    width        : 100%;
+    border       : 0px;
+    outline      : 0px;
+    border-radius: 10px;
+    padding      : 5px;
+    margin       : 5px;
+}
+
+button:hover {
+    letter-spacing  : 1px;
+    background-color: rgb(255, 51, 0);
+}
+
+.bttn {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.bttn button {
+    width        : 45%;
+    border       : 0px;
+    outline      : 0px;
+    border-radius: 10px;
+    padding      : 5px;
+    margin       : 5px;
+}
+
+table {
+    width     : 100%;
+    text-align: center;
+}
+
+th {
+    text-transform: uppercase;
+}
+
+.bttable {
+    border-radius: 5px;
+    margin       : 5px
+}
